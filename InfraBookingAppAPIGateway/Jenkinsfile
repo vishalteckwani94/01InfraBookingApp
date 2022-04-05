@@ -15,7 +15,7 @@ pipeline {
          stage('Publishing') {
             steps {
                 bat 'java -jar InfraBookingAppAPIGateway'
-'
+
             }
         }
     }
