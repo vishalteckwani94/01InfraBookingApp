@@ -16,7 +16,6 @@ pipeline {
             steps {
                 bat 'java -jar InfraBookingAppConfig'
 
-'
             }
         }
     }
